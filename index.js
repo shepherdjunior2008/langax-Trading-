@@ -1,5 +1,5 @@
 export default {
   async fetch() {
-    return new Response(`<!DOCTYPE html><html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width"><title>Langax Trading</title><script src="https://cdn.tailwindcss.com"></script></head><body style="background:black;color:white;font-family:sans-serif;text-align:center;padding:50px"><h1 style="font-size:50px;font-weight:900">LANGAX <span style="color:#facc15">TRADING</span></h1><p style="color:gray;margin-top:20px">Professional Forex, Crypto & Gold - Shepherd Junior - Kericho</p><br><br><a href="https://wa.me/254700000000" style="background:#facc15;color:black;padding:15px 40px;border-radius:30px;font-weight:900;text-decoration:none">Join WhatsApp VIP</a><br><br><br><div style="display:flex;gap:10px;justify-content:center"><div style="background:#222;padding:20px;border-radius:10px">BTC $68k</div><div style="background:#222;padding:20px;border-radius:10px">GOLD $2642</div><div style="background:#222;padding:20px;border-radius:10px">EUR 1.08</div></div><p style="color:#444;margin-top:80px;font-size:12px">© 2026 Langax Trading</p></body></html>`, { headers: { "content-type": "text/html" } });
+    return new Response("Langax Trading is fixing...", { headers: { "content-type": "text/html" } });
   }
 }
